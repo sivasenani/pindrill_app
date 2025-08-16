@@ -1,0 +1,31 @@
+﻿Pinyin,Mandarin IPA,Telugu,Telugu IPA,Match,Pronunciation Notes
+a,[a],అ,[a],✅,—
+o,[u̯ɔ]/[o],ఒ,[o],✅,—
+e,[ɤ],ఎ,[e],⚠️,Keep tongue back and lips neutral; avoid fronting to [e].
+i,[i],ఇ,[i],✅,—
+u,[u],ఉ,[u],✅,—
+ü,[y],యు,—,🔴,"Front tongue like [i], lips rounded — no Telugu equivalent."
+ai,[aɪ̯],అఇ,—,🔴,Smooth glide; avoid breaking into two separate syllables.
+ei,[eɪ̯],ఎఇ,—,🔴,"Start at mid front [e], glide to [i]."
+ao,[ɑʊ̯],అఉ,—,🔴,Open [ɑ] to [ʊ] — Telugu /ఔ/ has different onset quality.
+ou,[oʊ̯],ఒఉ,—,🔴,"Start higher [o], glide to [u]."
+ia,[ja],ఇఅ,—,🔴,Initial [j] glide is crisper than Telugu య.
+ie,[jɛ],ఇఎ,—,🔴,[ɛ] is more open than Telugu [e].
+iao,[jaʊ̯],ఇఅఉ,—,🔴,Glide → open vowel → back glide in one smooth motion.
+iu,[joʊ̯],ఇఒఉ,—,🔴,Compact triphthong — avoid pausing between vowels.
+ua,[wa],వఅ,[ʋa],⚠️,"Keep lips rounded for [w], unlike Telugu [ʋ]."
+uo,[wɔ],వఒ,[ʋo],⚠️,Same onset note as above; vowel slightly more open.
+üe,[yɛ],యుఎ,—,🔴,Rounded lips + front open-mid [ɛ].
+uai,[waɪ̯],వఅఇ,—,🔴,"Strong [w] onset, then glide to [aɪ]."
+ui,[weɪ̯],వఎఇ,—,🔴,"Start with [w], mid-front [e], glide to [i]."
+an,[an],అన్,[an],✅,—
+en,[ən],ఎన్,[en],⚠️,Central vowel [ə]-like quality — keep tongue relaxed.
+ang,[ɑŋ],అఙ్,[aŋ],⚠️,Slightly more back and open than Telugu [aŋ].
+eng,[ɤŋ],ఎఙ్,—,🔴,Back-central vowel into velar nasal — new combination.
+ong,[ʊŋ],వుఙ్,—,🔴,"Back, rounded [ʊ] into [ŋ]; tighter lips than Telugu ఉం."
+ian,[jɛn],ఇఅన్,—,🔴,"Glide to open-mid [ɛ], then nasal."
+in,[in],ఇన్,[in],✅,—
+iang,[jɑŋ],ఇఅఙ్,—,🔴,[ɑ] more back; glide smooth.
+ing,[iŋ],ఇఙ్,—,🔴,High front vowel into velar nasal.
+üan,[yɛn],యుఎన్,—,🔴,Combine ü onset with [ɛn] nasal.
+ün,[yn],యుఎన్,—,🔴,Ü onset into [n] nasal — maintain

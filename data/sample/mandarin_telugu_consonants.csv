@@ -1,0 +1,24 @@
+﻿Pinyin,Mandarin IPA,Telugu,Telugu IPA,Match,Pronunciation Notes
+b,[p] (unasp.),ప,[p],⚠️,Unaspirated [p]; avoid adding Telugu voiced [b] quality. Keep voiceless but without a strong burst.
+p,[pʰ],ఫ,[pʰ],✅,—
+m,[m],మ,[m],✅,—
+f,[f],ఫ్,[pʰ] (labiodental),⚠️,Lower lip touches upper teeth (labiodental) — Telugu /ఫ/ is bilabial; shift place forward.
+d,[t] (unasp.),ట / ద,[ʈ] / [d̪],⚠️,"Voiceless, unaspirated alveolar/dental; avoid retroflex unless needed. No voicing."
+t,[tʰ],థ,[tʰ]/[t̪ʰ],⚠️,"Similar aspiration but ensure dental/alveolar, not retroflex."
+n,[n],న,[n],✅,—
+l,[l],ల,[l],✅,—
+g,[k] (unasp.),క,[k],⚠️,Keep it unaspirated; Telugu often releases slightly more force.
+k,[kʰ],ఖ,[kʰ],✅,—
+h,[x]~[h],హ,[h],⚠️,Slightly more friction at velar [x] in Mandarin before back vowels — Telugu is purely glottal.
+j,[tɕ],చ్+య్,[t͡ɕ],🔴,Mandarin tongue blade closer to hard palate; tighter constriction.
+q,[tɕʰ],ఛ్+య్,[t͡ɕʰ],🔴,Same as above + aspiration; keep lips unrounded.
+x,[ɕ],శ్+య్,[ɕ],⚠️,"Softer “sh” — tongue blade closer to alveolar ridge, lips spread."
+zh,[ʈʂ],ట్ర్,[ʈ͡ʂ],⚠️,Similar retroflex but Mandarin has more tongue curling and retraction.
+ch,[ʈʂʰ],ఛ్ర్,[ʈ͡ʂʰ],⚠️,"Same as zh, with aspiration."
+sh,[ʂ],ష్,[ʂ],✅,—
+r,[ɻ],ఱ్,[ɻ]~[ɽ],⚠️,Mandarin retroflex approximant has no tap/flap; keep continuous.
+z,[ts],జ్,[t͡s]/[d͡z],⚠️,Telugu “జ” is more affricated; keep it voiceless.
+c,[tsʰ],ఝ్,[t͡sʰ],⚠️,Aspirated affricate; release air more forcefully than in Telugu.
+s,[s],స్,[s],✅,—
+y,[j],య్,[j],✅,—
+w,[w],వ్,[ʋ]~[w],⚠️,Telugu /వ/ is [ʋ] (labiodental-approximant); round lips more for Mandarin [w].
