@@ -12,6 +12,7 @@ from utils.main_functions import play_a_syllable, play_multiple_speakers
 # Load and augment dataset
 # TODO: Move hardcoded paths and filenames to configs.py
 processed_filename = Path(__file__).parent.parent / "data" / "sample" / "TrATLabelFile_processed.csv"
+# TODO: Read the unprocessed file and do the preprocessing
 df = pd.read_csv(processed_filename)
 
 # Streamlit UI
