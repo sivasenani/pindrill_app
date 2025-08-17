@@ -7,13 +7,16 @@ sys.path.append(str(Path(__file__).parent.parent))
 import streamlit as st
 import pandas as pd
 import os
-from utils.main_functions import play_a_syllable, play_multiple_speakers
+from utils.main_functions import play_a_syllable, play_multiple_speakers, AudioFileDataset
 
 # Load and augment dataset
 # TODO: Move hardcoded paths and filenames to configs.py
-processed_filename = Path(__file__).parent.parent / "data" / "sample" / "TrATLabelFile_processed.csv"
+# processed_filename = Path(__file__).parent.parent / "data" / "sample" / "TrATLabelFile_processed.csv"
 # TODO: Read the unprocessed file and do the preprocessing
-df = pd.read_csv(processed_filename)
+dataset_filename = Path(__file__).parent.parent / "data" / "sample" / "TrATLabelFile.csv"
+dataset = AudioFileDataset(dataset_filename)
+dataset.preprocess()
+# df = pd.read_csv(processed_filename)
 
 # Streamlit UI
 st.title("🎧 PinDrill")
@@ -21,15 +24,15 @@ st.subheader("A Mandarin Syllable Player")
 mode = st.radio("Select mode:", ["Play multiple speakers", "Play a single syllable"])
 
 if mode == "Play multiple speakers":
-    syll_choice = st.selectbox("Pick a syllable:", sorted(df["syllable"].unique()))
+    syll_choice = st.selectbox("Pick a syllable:", sorted(dataset.df["syllable"].unique()))
     if st.button("Play Now"):
-        play_multiple_speakers(df, syll=syll_choice, st=st)
+        play_multiple_speakers(dataset.df, syll=syll_choice, st=st)
 
 elif mode == "Play a single syllable":
-    row_num = st.number_input("Enter row index (0-based):", min_value=0, max_value=len(df)-1, step=1)
+    row_num = st.number_input("Enter row index (0-based):", min_value=0, max_value=len(dataset.df)-1, step=1)
     show_char = st.checkbox("Show character?")
     if st.button("Play This Syllable"):
-        play_a_syllable(df, n=int(row_num), show_character=show_char, st=st)
+        play_a_syllable(dataset.df, n=int(row_num), show_character=show_char, st=st)
 
 # --- Footer with Chinese proverb about learning
 st.markdown('---')
