@@ -21,9 +21,9 @@ def play_a_syllable(df: pd.DataFrame, n: int = None, show_character: bool = Fals
     pinyin_char = row["pinyin"]
     file_path = data_dir / "TrAT" / f"TrAT-fold{folder_num}" / file_name
     if st:
-        st.audio(file_path)
         if show_character:
             st.write(pinyin_char)
+        st.audio(file_path)
     else:
         if show_character: print(f"Playing audio for {pinyin_char}")
         # Play audio without Streamlit
@@ -57,7 +57,7 @@ class AudioFileDataset:
         """Initialize the dataset."""
 
         self.df = pd.read_csv(df_filename)
-        print(f"Audio File Dataset loaded with {len(self.df)} entries. \nColumns: {list(self.df.columns)}\n")
+        # print(f"Audio File Dataset loaded with {len(self.df)} entries. \nColumns: {list(self.df.columns)}\n")
         
     def preprocess(self):
             """Preprocess the dataset and further analyze."""
@@ -80,8 +80,8 @@ class AudioFileDataset:
             # Convert 'tone' to string for consistency
             self.df["tone"] = self.df["tone"].astype(str)
 
-            print(f"Preprocessing complete. Dataset now has {len(self.df)} entries with columns: "
-                  f"{list(self.df.columns)}\n")
+            # print(f"Preprocessing complete. Dataset now has {len(self.df)} entries with columns: "
+            #       f"{list(self.df.columns)}\n")
 
     def save_processed(self, output_filename):
         """Save the processed dataset to a CSV file."""
