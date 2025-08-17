@@ -1,5 +1,7 @@
 # Mandarin Pronunciation Learning App (Pindrill)
 
+If you want to check out the app straight away, go to: https://pindrillapp-rhtcu5qkj6zmbi6rrvmety.streamlit.app/ 
+
 ## Objective
 This project aims to help learners improve their Mandarin pronunciation using Pinyin. The app provides interactive tools to explore and practice Mandarin syllables and tones, supporting learners in building a strong foundation in spoken Chinese.
 
